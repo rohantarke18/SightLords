@@ -445,13 +445,12 @@ Always state the source of your footage in any presentation. Demo data from `mak
 
 ## 17. Team
 
-| Name | Role |
-|---|---|
-| Rohan | *add role* |
-| Shourya | *add role* |
-| Harshad | *add role* |
-| Anurag | *add role* |
-
+| Name | Role | Owns |
+|---|---|---|
+| Rohan | Computer Vision Lead | Detection, tracking, track stitching, test footage (`step1_track.py`, `tracker.yaml`) |
+| Shourya | Geometry & Visualization Lead | Zone tool, heatmaps, floor-plan mapping (`step2_zones.py`, heatmap in `step3_analyze.py`) |
+| Harshad | Analytics & Intelligence Lead | Dwell metrics, funnel, diagnosis, recommendations, validation (`step3_analyze.py`) |
+| Anurag | Product, Dashboard & Presentation Lead | Dashboard, tracking video, README, deck and demo (`step3b_render_video.py`, `step4_dashboard.py`) |
 ---
 
 *StoreFlow AI turns the cameras stores already own into decisions.*
