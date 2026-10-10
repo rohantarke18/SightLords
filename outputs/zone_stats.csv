@@ -1,0 +1,4 @@
+zone,visitors,visitor_share_%,avg_dwell_s,median_dwell_s,max_dwell_s,peak_people_at_once,crowded_seconds,status
+Right Side,0,0.0,0.0,0.0,0.0,0,0.0,Dead zone
+Books,4,33.3,4.6,4.4,7.8,2,0.0,OK
+Left Side,9,75.0,10.5,8.2,30.6,4,0.0,OK

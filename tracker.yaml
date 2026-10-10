@@ -1,0 +1,8 @@
+# ByteTrack settings tuned for store videos processed at ~5 frames per second.
+tracker_type: bytetrack
+track_high_thresh: 0.30   # confident detections used first
+track_low_thresh: 0.10    # weak detections can still keep an existing track alive
+new_track_thresh: 0.35    # a NEW ID is only created for fairly confident detections (fewer ghost IDs)
+track_buffer: 60          # keep a lost person alive for ~12 s at 5 fps (handles people hidden behind shelves)
+match_thresh: 0.8
+fuse_score: True
